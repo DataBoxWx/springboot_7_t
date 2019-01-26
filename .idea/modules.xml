@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../01-Nginx/10-P2PAdmin/p2p-admin/p2p-admin.iml" filepath="$PROJECT_DIR$/../01-Nginx/10-P2PAdmin/p2p-admin/p2p-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p-admin-dev/p2p-admin-dev.iml" filepath="$PROJECT_DIR$/p2p-admin-dev/p2p-admin-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-dataservice-02/seckill-dataservice-02.iml" filepath="$PROJECT_DIR$/seckill-dataservice-02/seckill-dataservice-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-interface-01/seckill-interface-01.iml" filepath="$PROJECT_DIR$/seckill-interface-01/seckill-interface-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-web-03/seckill-web-03.iml" filepath="$PROJECT_DIR$/seckill-web-03/seckill-web-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-activemq-13/spring-activemq-13.iml" filepath="$PROJECT_DIR$/spring-activemq-13/spring-activemq-13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-activemq-14/spring-activemq-14.iml" filepath="$PROJECT_DIR$/spring-activemq-14/spring-activemq-14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-fastdfs-11/spring-fastdfs-11.iml" filepath="$PROJECT_DIR$/spring-fastdfs-11/spring-fastdfs-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-multiple-01-18/spring-multiple-01-18.iml" filepath="$PROJECT_DIR$/spring-multiple-01-18/spring-multiple-01-18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-01/springboot-01.iml" filepath="$PROJECT_DIR$/springboot-01/springboot-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-activemq--async16/springboot-activemq--async16.iml" filepath="$PROJECT_DIR$/springboot-activemq--async16/springboot-activemq--async16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-activemq-15/springboot-activemq-15.iml" filepath="$PROJECT_DIR$/springboot-activemq-15/springboot-activemq-15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-activemq-async-17/springboot-activemq-async-17.iml" filepath="$PROJECT_DIR$/springboot-activemq-async-17/springboot-activemq-async-17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer-05/springboot-dubbo-consumer-05.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer-05/springboot-dubbo-consumer-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-interface-05/springboot-dubbo-interface-05.iml" filepath="$PROJECT_DIR$/springboot-dubbo-interface-05/springboot-dubbo-interface-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider-05/springboot-dubbo-provider-05.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider-05/springboot-dubbo-provider-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-fdfs-web-12/springboot-fdfs-web-12.iml" filepath="$PROJECT_DIR$/springboot-fdfs-web-12/springboot-fdfs-web-12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jar-07/springboot-jar-07.iml" filepath="$PROJECT_DIR$/springboot-jar-07/springboot-jar-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-java-02/springboot-java-02.iml" filepath="$PROJECT_DIR$/springboot-java-02/springboot-java-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-multiple-02-19/springboot-multiple-02-19.iml" filepath="$PROJECT_DIR$/springboot-multiple-02-19/springboot-multiple-02-19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-03/springboot-mybatis-03.iml" filepath="$PROJECT_DIR$/springboot-mybatis-03/springboot-mybatis-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis-04/springboot-redis-04.iml" filepath="$PROJECT_DIR$/springboot-redis-04/springboot-redis-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springsession-08/springboot-springsession-08.iml" filepath="$PROJECT_DIR$/springboot-springsession-08/springboot-springsession-08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../01-Nginx/10-P2PAdmin/springboot-thymeleaf-09/springboot-thymeleaf-09.iml" filepath="$PROJECT_DIR$/../01-Nginx/10-P2PAdmin/springboot-thymeleaf-09/springboot-thymeleaf-09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf-connsumer-10/springboot-thymeleaf-connsumer-10.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf-connsumer-10/springboot-thymeleaf-connsumer-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf-exterface-10/springboot-thymeleaf-exterface-10.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf-exterface-10/springboot-thymeleaf-exterface-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf-provider-10/springboot-thymeleaf-provider-10.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf-provider-10/springboot-thymeleaf-provider-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-war-06/springboot-war-06.iml" filepath="$PROJECT_DIR$/springboot-war-06/springboot-war-06.iml" />
+    </modules>
+  </component>
+</project>

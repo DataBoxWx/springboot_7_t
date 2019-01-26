@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<table class="table table-striped" style="margin: 50px">
+    <caption>债券信息</caption>
+    <thead>
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>手机</th>
+        <th>住址</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody >
+    <tr th:each="creditor : ${creditorList}">
+        <td th:text="${creditorStat.count}">Tanmay</td>
+        <td th:text="${creditor.realname}">Bangalore</td>
+        <td th:text="${creditor.phone}"></td>
+        <td th:text="${creditor.address}"></td>
+       <td>
+            <span th:if="${creditor.contracturl == null}">
+                <a th:href="@{'/fdfs/creditor/' + ${creditor.id}}">上传</a>
+            </span>
+            <span th:if="${creditor.contracturl != null}">
+                <a th:href="@{'/fdfs/creditor/'+ ${creditor.id} + '/contract'}">下载</a>|
+                <a th:href="'javascript:deleteFile(' + ${creditor.id} + ')'">删除</a>
+            </span>
+
+        </td>
+    </tr>
+    </tbody>
+    <form th:method="delete" id="deleteForm"></form>
+</table>
+    <script type="text/javascript" th:inline="javascript">
+        function deleteFile(id) {
+            var contextPath = [[${#request.getContextPath()}]];
+            $("#deleteForm").attr("action",contextPath + "/fdfs/creditor/" + id);
+            $("#deleteForm").submit();
+        }
+    </script>
+</body>
+</html>

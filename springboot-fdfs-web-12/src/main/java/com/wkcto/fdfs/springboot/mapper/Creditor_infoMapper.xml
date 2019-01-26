@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wkcto.fdfs.springboot.mapper.Creditor_infoMapper" >
+  <resultMap id="BaseResultMap" type="com.wkcto.fdfs.springboot.model.Creditor_info" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="realName" property="realname" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="groupName" property="groupname" jdbcType="VARCHAR" />
+    <result column="remoteFileName" property="remotefilename" jdbcType="VARCHAR" />
+    <result column="contractURL" property="contracturl" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, realName, address, phone, groupName, remoteFileName, contractURL
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from creditor_info
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from creditor_info
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.wkcto.fdfs.springboot.model.Creditor_info" >
+    insert into creditor_info (id, realName, address, 
+      phone, groupName, remoteFileName, 
+      contractURL)
+    values (#{id,jdbcType=INTEGER}, #{realname,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, 
+      #{phone,jdbcType=VARCHAR}, #{groupname,jdbcType=VARCHAR}, #{remotefilename,jdbcType=VARCHAR}, 
+      #{contracturl,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.wkcto.fdfs.springboot.model.Creditor_info" >
+    insert into creditor_info
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="realname != null" >
+        realName,
+      </if>
+      <if test="address != null" >
+        address,
+      </if>
+      <if test="phone != null" >
+        phone,
+      </if>
+      <if test="groupname != null" >
+        groupName,
+      </if>
+      <if test="remotefilename != null" >
+        remoteFileName,
+      </if>
+      <if test="contracturl != null" >
+        contractURL,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="realname != null" >
+        #{realname,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="groupname != null" >
+        #{groupname,jdbcType=VARCHAR},
+      </if>
+      <if test="remotefilename != null" >
+        #{remotefilename,jdbcType=VARCHAR},
+      </if>
+      <if test="contracturl != null" >
+        #{contracturl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wkcto.fdfs.springboot.model.Creditor_info" >
+    update creditor_info
+    <set >
+      <if test="realname != null" >
+        realName = #{realname,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="groupname != null" >
+        groupName = #{groupname,jdbcType=VARCHAR},
+      </if>
+      <if test="remotefilename != null" >
+        remoteFileName = #{remotefilename,jdbcType=VARCHAR},
+      </if>
+      <if test="contracturl != null" >
+        contractURL = #{contracturl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wkcto.fdfs.springboot.model.Creditor_info" >
+    update creditor_info
+    set realName = #{realname,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      groupName = #{groupname,jdbcType=VARCHAR},
+      remoteFileName = #{remotefilename,jdbcType=VARCHAR},
+      contractURL = #{contracturl,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectAllCreditor" resultMap="BaseResultMap">
+    SELECT
+    <include refid="Base_Column_List"/>
+    FROM
+      creditor_info
+  </select>
+
+  <update id="updateCreditor" >
+    UPDATE
+      creditor_info
+    SET
+      groupName = #{groupname,jdbcType=VARCHAR},
+      remoteFileName = #{remotefilename,jdbcType=VARCHAR},
+      contractURL = #{contracturl,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <update id="updateByContract">
+    UPDATE
+      creditor_info
+    SET
+      groupName = NULL ,
+      remoteFileName =NULL ,
+      contractURL = NULL
+    where id = #{id,jdbcType=INTEGER}
+
+  </update>
+</mapper>

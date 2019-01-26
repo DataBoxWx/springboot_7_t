@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>秒杀详情页</title>
+    <script th:src="@{/js/jquery.min.js}"></script>
+</head>
+<body th:inline="text" style="margin:80px;">
+    <div style="float: left;">
+        <img th:src="@{${goods.imageurl}}">
+    </div>
+    <div style="float:left;padding: 20px;">
+        <p>
+            [[${goods.name}]] [[${goods.namedesc}]]
+        </p>
+        <p>
+            <span style="font-size:18px;color:red;font-weight:bold;">￥ [[${goods.price}]]</span>
+        </p>
+        <p>
+            剩余：[[${goods.store}]] 件
+        </p>
+        <p id="seckillTip">
+            1、秒杀还没有开始，显示秒杀的倒计时；<br/>
+            2、秒杀时间已经结束，直接显示秒杀结束； <br/>
+            3、秒杀已经开始，显示立即秒杀按钮；
+        </p>
+    </div>
+
+
+<script th:src="@{/js/seckill.js}"></script>
+<script th:src="@{/js/jquery.countdown.min.js}"></script>
+
+
+<script type="text/javascript" th:inline="javascript">
+    $(function () {
+        var id = [[${goods.id}]];
+        var nowTime = [[${nowTime}]];
+        var startTime = [[${goods.starttime.getTime()}]];
+        var endTime = [[${goods.endtime.getTime()}]];
+        seckill.path = [[${#request.getContextPath()}]]
+        seckill.func.initDetial(id,nowTime,startTime,endTime);
+    })
+</script>
+</body>
+</html>

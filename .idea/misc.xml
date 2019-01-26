@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot-war-06" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-01/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-java-02/pom.xml" />
+        <option value="$PROJECT_DIR$/../01-Nginx/10-P2PAdmin/p2p-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-03/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis-04/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-interface-05/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider-05/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-consumer-05/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-war-06/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jar-07/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-springsession-08/pom.xml" />
+        <option value="$PROJECT_DIR$/../01-Nginx/10-P2PAdmin/springboot-thymeleaf-09/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf-provider-10/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf-connsumer-10/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf-exterface-10/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-fastdfs-11/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fdfs-web-12/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-activemq-13/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-activemq-14/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-activemq-15/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-activemq--async16/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-activemq-async-17/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-multiple-01-18/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-multiple-02-19/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-interface-01/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-dataservice-02/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-web-03/pom.xml" />
+        <option value="$PROJECT_DIR$/p2p-admin-dev/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

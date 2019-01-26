@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="p2p-admin" />
+        <module name="p2p-admin-dev" />
+        <module name="seckill-dataservice-02" />
+        <module name="seckill-interface-01" />
+        <module name="seckill-web-03" />
+        <module name="spring-activemq-13" />
+        <module name="spring-activemq-14" />
+        <module name="spring-fastdfs-11" />
+        <module name="spring-multiple-01-18" />
+        <module name="springboot-01" />
+        <module name="springboot-activemq--async16" />
+        <module name="springboot-activemq-15" />
+        <module name="springboot-activemq-async-17" />
+        <module name="springboot-dubbo-consumer-05" />
+        <module name="springboot-dubbo-interface-05" />
+        <module name="springboot-dubbo-provider-05" />
+        <module name="springboot-fdfs-web-12" />
+        <module name="springboot-jar-07" />
+        <module name="springboot-java-02" />
+        <module name="springboot-multiple-02-19" />
+        <module name="springboot-mybatis-03" />
+        <module name="springboot-redis-04" />
+        <module name="springboot-springsession-08" />
+        <module name="springboot-thymeleaf-09" />
+        <module name="springboot-thymeleaf-10" />
+        <module name="springboot-thymeleaf-connsumer-10" />
+        <module name="springboot-thymeleaf-exterface-10" />
+        <module name="springboot-thymeleaf-provider-10" />
+        <module name="springboot-war-06" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="p2p-admin" target="1.8" />
+      <module name="p2p-admin-dev" target="1.8" />
+      <module name="seckill-dataservice-02" target="1.8" />
+      <module name="seckill-interface-01" target="1.7" />
+      <module name="seckill-web-03" target="1.8" />
+      <module name="spring-activemq-13" target="1.5" />
+      <module name="spring-activemq-14" target="1.5" />
+      <module name="spring-fastdfs-11" target="1.5" />
+      <module name="spring-multiple-01-18" target="1.5" />
+      <module name="springboot-01" target="1.8" />
+      <module name="springboot-activemq--async16" target="1.8" />
+      <module name="springboot-activemq-15" target="1.8" />
+      <module name="springboot-activemq-async-17" target="1.8" />
+      <module name="springboot-dubbo-consumer-05" target="1.8" />
+      <module name="springboot-dubbo-interface-05" target="1.5" />
+      <module name="springboot-dubbo-provider-05" target="1.8" />
+      <module name="springboot-fdfs-web-12" target="1.8" />
+      <module name="springboot-jar-07" target="1.8" />
+      <module name="springboot-java-02" target="1.8" />
+      <module name="springboot-multiple-02-19" target="1.8" />
+      <module name="springboot-mybatis-03" target="1.8" />
+      <module name="springboot-redis-04" target="1.8" />
+      <module name="springboot-springsession-08" target="1.8" />
+      <module name="springboot-thymeleaf-09" target="1.8" />
+      <module name="springboot-thymeleaf-10" target="1.7" />
+      <module name="springboot-thymeleaf-connsumer-10" target="1.8" />
+      <module name="springboot-thymeleaf-exterface-10" target="1.7" />
+      <module name="springboot-thymeleaf-provider-10" target="1.8" />
+      <module name="springboot-war-06" target="1.8" />
+      <module name="swsss" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
